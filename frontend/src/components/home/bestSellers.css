@@ -1,0 +1,20 @@
+.text-an {
+  position: relative;
+  display: inline-block;
+overflow: hidden;
+  --reveal-tr: 0%;
+  vertical-align: bottom;
+  /* Pour que le curseur texte ne s'affiche pas dessus */
+  cursor: default; 
+   /* will-change: transform; */
+}
+.text-an::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  
+  background: #000; /* pas besoin gradient */
+  transform: translateX(var(--reveal-tr)) ;
+  transform-origin: left;
+  /* will-change: transform; */
+}

@@ -1,0 +1,74 @@
+ * {
+
+  box-sizing: border-box;
+ }
+
+ body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+ }
+  ::selection {
+  background-color: rgb(255, 106, 106); /* Couleur de la sélection */
+  color: rgb(106, 153, 255);            /* Couleur du texte sélectionné */
+}
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+ }
+
+         @font-face {
+  font-family: 'Super';
+  src: url('/fonts/Super\ Sliced.ttf') format('truetype');
+}
+
+
+       @font-face {
+  font-family: 'techno';
+  src: url('/fonts/techno_hideo.ttf') format('truetype');
+}
+       @font-face {
+  font-family: 'full';
+  src: url('/fonts/full\ Pack\ 2025.ttf') format('truetype');
+}
+       @font-face {
+  font-family: 'Above';
+  src: url('/fonts/Above\ Bold.otf') format('truetype');
+}
+        @font-face {
+  font-family: 'Diamod';
+  src: url('/fonts/DIMOD.otf') format('truetype');
+}
+        @font-face {
+  font-family: 'nix';
+  src: url('/fonts/Nixmat.otf') format('truetype');
+}
+ @font-face {
+  font-family: 'electro';
+  src: url('/fonts/Ethnocentric-Regular.otf') format('truetype');
+}
+
+ .super{
+  font-family: 'Super', sans-serif;
+ }
+  .techno{
+    font-family: 'techno', sans-serif;
+  }
+  .full{
+    font-family: 'full', sans-serif;
+  }
+  .above{
+    font-family: 'Above', sans-serif;
+  }
+  .diamod{
+    font-family: 'Diamod', sans-serif;
+  }
+  .nix{
+    font-family: 'nix', sans-serif;
+  }
+  .electro{
+    font-family: 'electro', sans-serif;
+  }
+ 
